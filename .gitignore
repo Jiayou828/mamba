@@ -4,3 +4,12 @@ build/
 **.so
 *.hip
 *_hip.*
+
+# DehazeMamba experiment artifacts (dataset remains outside this repository).
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.csv
+events.out.tfevents.*
